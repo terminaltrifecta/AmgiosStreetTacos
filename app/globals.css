@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-oswald);
+    text-transform: uppercase;
+}
+
+body {
+    background-color: rgb(255, 246, 235);
+}
+
+.whiteBackground {
+    background-color: var(---white);
+}
+
+.whiteBorder {
+    border: 0.2rem solid #e2d3c0;
+    border-radius: 20px;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.icon {
+    color: var(---black);
+    cursor: pointer;
+    transition: 0.125s ease-in-out;
+}
+
+.icon:hover {
+    color: var(---red)
+}
